@@ -1,0 +1,80 @@
+:root {
+    --primary: #6043D5;
+    --primaryColorLinear: #B200D1;
+    --secondPrimaryColor: #DBE9F7;
+    
+    --widgetFontColor: #fff;
+    --fontColor: #fff;
+    --backgroundColor: #202124;
+    --widgetColor: #393F48;
+    --titleSize: clamp(1rem, 3vw, 1.2vw); 
+    --textSize: clamp(0.8rem, 3vw, 1vw); 
+    --iconSize: clamp(1.5rem, 6vw, 1.8vw );
+    --imageProfileSize: clamp(3rem, 6vw + 1rem, 4vw);
+    --responsiveSpace: clamp(0.6rem, 2vw, 0.5vw); 
+    --smallerResponsiveSpace: clamp(0.4rem, 2vw, 0.5vw); 
+    --white: #fff;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #6043D5;
+        --primaryColorLinear: #B200D1;
+        --secondPrimaryColor: #DBE9F7;
+        
+        --widgetFontColor: #fff;
+        --fontColor: #fff;
+        --backgroundColor: #202124;
+        --widgetColor: #393F48;
+    }
+    }
+    
+    @media (prefers-color-scheme: light) { 
+        :root {
+            --primary: #6043D5;
+            --primaryColorLinear: #B200D1;
+            --secondPrimaryColor: #DBE9F7;
+            --fontColor: #202124;
+            --widgetFontColor: #202124;
+            --backgroundColor: #fff;
+            --widgetColor: #F9F9F9;
+        }
+    }
+
+    @media(max-width: 550px) {
+        :root {
+            --iconSize: 1.5rem;    
+            --iconSize: clamp(1.2rem, 6vw, 10vw );
+        }
+    }
+
+
+
+
+
+
+
+        /* //#search #555 */
+
+        .customSearchComponent {
+            margin: auto;
+            display: flex;
+            align-items: center;
+            background-color: var(--fontColor);
+            padding: var(--smallerResponsiveSpace);
+            border-radius: 2rem;
+           
+         } .textInput{
+             border: solid transparent;
+         }
+
+
+
+            .customSearchComponent .nav-item-custom .nav-link {
+                color: #464a53;
+                font-size: 18px; 
+            }
+
+             

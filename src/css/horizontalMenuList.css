@@ -1,0 +1,392 @@
+.HorizontalMealMenuMainDiv {
+    --primary: #6043D5;
+    --primaryColorLinear: #B200D1;
+    --secondPrimaryColor: #DBE9F7;
+    
+    --widgetFontColor: #fff;
+    --fontColor: #fff;
+    --backgroundColor: #202124;
+    --widgetColor: #393F48;
+    --titleSize: clamp(1rem, 3vw, 1.2vw); 
+    --textSize: clamp(0.8rem, 3vw, 1vw); 
+    --iconSize: clamp(1.5rem, 5vw, 2.2rem);
+
+    --imageProfileSize: clamp(3rem, 6vw + 1rem, 4vw);
+    --responsiveSpace: clamp(0.6rem, 2vw, 0.5vw); 
+    --smallerResponsiveSpace: clamp(0.4rem, 2vw, 0.5vw); 
+    --white: #fff;
+}
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #6043D5;
+        --primaryColorLinear: #B200D1;
+        --secondPrimaryColor: #DBE9F7;
+        
+        --widgetFontColor: #fff;
+        --fontColor: #fff;
+        --backgroundColor: #202124;
+        --widgetColor: #393F48;
+    }
+    }
+    
+    @media (prefers-color-scheme: light) { 
+        :root {
+            --primary: #6043D5;
+            --primaryColorLinear: #B200D1;
+            --secondPrimaryColor: #DBE9F7;
+            --fontColor: #202124;
+            --widgetFontColor: #202124;
+            --backgroundColor: #fff;
+            --widgetColor: #F9F9F9;
+        }
+    }
+
+    @media(max-width: 420px) {
+        .headerMainDiv {
+            --titleSize: clamp(0.8rem, 3vw, 1.2vw); 
+            --textSize: clamp(0.8rem, 3vw, 1vw); 
+            --iconSize: clamp(0.8rem, 5vw, 2.2rem);
+            --imageProfileSize: clamp(2rem, 6vw, 10vw);
+        }
+    }
+
+    @media(max-width: 375px) {
+        .headerMainDiv {
+            --titleSize: clamp(0.8rem, 3vw, 1.2vw); 
+            --textSize: clamp(0.8rem, 3vw, 1vw); 
+            --iconSize: clamp(0.8rem, 5vw, 2.2rem);
+            --imageProfileSize: clamp(2rem, 6vw, 10vw);
+        }
+    }
+
+
+       .HorizontalMealMenuMainDiv {
+                display: flex;
+                flex-direction: row;
+                overflow-x: scroll;
+                padding-bottom: 0.7rem;
+                margin-top: 1vw;
+                margin-bottom: 2vw;
+        } 
+
+
+     .main{
+       
+     }
+
+
+
+       .HorizontalMealMenuMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.4rem;
+            margin-left: 0.4rem;
+            background-color: var(--pri);
+            width: 20rem;
+            background-color: var(--backgroundColor)
+            
+        }
+
+       .HorizontalMealMenuMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 16rem;
+            height: 17rem;
+        }
+
+       .HorizontalMealMenuMainDiv .textDiv {
+            padding: 1rem;
+            color: var(--fontColor);
+            
+            } .HorizontalMealMenuMainDiv .title {
+                font-size: 1.35rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalMealMenuMainDiv .subTitle{
+                font-size: 0.9rem;
+                /* font-family: var(--fontFamily);  */
+            }
+
+        
+
+
+
+
+    /*=======> 2nd secren #222222  <=======*/
+
+    @media (max-width: 1250px) {  */
+      .HorizontalMealMenuMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.3rem;
+            margin-left: 0.3rem;
+            background-color: var(--pri);
+            width: 20rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+      .HorizontalMealMenuMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 15rem;
+            height: 15.5rem;
+        }
+        
+       .HorizontalMealMenuMainDiv .textDiv {
+            padding: 1rem;
+            color: var(--fontColor);
+            
+            }.HorizontalMealMenuMainDiv .title {
+                font-size: 1.15rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+            .HorizontalMealMenuMainDiv .subTitle{
+                 font-size: 0.8rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }   
+
+
+
+
+
+
+
+    @media (max-width: 1100px) {  */
+        .HorizontalMealMenuMainDiv .posterDiv{
+              border-radius: 1vw;
+              margin-right: 0.3rem;
+              margin-left: 0.3rem;
+              background-color: var(--pri);
+              width: 15rem;
+              background-color: var(--backgroundColor)
+              
+          }
+          
+        .HorizontalMealMenuMainDiv .image {
+              border-top-left-radius: 1vw;
+              border-top-right-radius: 1vw;
+              width: 13rem;
+              height: 13.5rem;
+          }
+          
+         .HorizontalMealMenuMainDiv .textDiv {
+              padding: 1rem;
+              color: var(--fontColor);
+              
+              }.HorizontalMealMenuMainDiv .title {
+                  font-size: 1.15rem;
+                  /* font-family: var(--fontFamily);
+                  font-weight:200; */
+              }
+              .HorizontalMealMenuMainDiv .subTitle{
+                   font-size: 0.8rem;
+                  /* font-family: var(--fontFamily);  */
+              }
+      }   
+
+
+
+
+
+
+
+
+
+
+
+/*=======> 3rid secren #333333  <=======*/
+    @media (max-width: 900px) {  */
+       .HorizontalMealMenuMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.3rem;
+            margin-left: 0.3rem;
+            background-color: var(--pri);
+            width: 11rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+       .HorizontalMealMenuMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 11rem;
+            height: 11rem;
+        }
+        
+       .HorizontalMealMenuMainDiv .textDiv {
+            padding: 1rem;
+            color: var(--fontColor);
+            
+            } .HorizontalMealMenuMainDiv .title {
+                font-size: 1.15rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalMealMenuMainDiv .subTitle{
+                 font-size: 0.8rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }   
+
+
+
+
+
+
+    /*=======> 4rd secren #444444  <=======*/
+
+
+    @media (max-width: 800px) { 
+       .HorizontalMealMenuMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.3rem;
+            margin-left: 0.3rem;
+            background-color: var(--pri);
+            width: 10rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+       .HorizontalMealMenuMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 10rem;
+            height: 10rem;
+        }
+        
+       .HorizontalMealMenuMainDiv .textDiv {
+            padding: 1rem;
+            color: var(--fontColor);
+            
+            }  .HorizontalMealMenuMainDiv .title {
+                font-size: 1rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalMealMenuMainDiv .subTitle{
+                 font-size: 0.65rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }  
+
+
+
+
+
+
+
+
+
+
+    /*#TODO mobile                                                                  */
+    @media (max-width: 555.56px) { 
+
+        ::-webkit-scrollbar {
+            height: 0.2rem;
+            border: 1px;
+            border-radius: 20rem;
+          }
+        
+          ::-webkit-scrollbar-thumb:horizontal{
+            background-color: var(--fontColor);
+            border-radius: 10rem;
+        }
+       .HorizontalMealMenuMainDiv .posterDiv{
+            border-radius: 1.5vw;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+            background-color: var(--pri);
+            width: 9rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+       .HorizontalMealMenuMainDiv .image {
+            border-top-left-radius: 1.5vw;
+            border-top-right-radius: 1.5vw;
+            width: 8rem;
+            height: 8rem;
+        }
+        
+       .HorizontalMealMenuMainDiv .textDiv {
+            padding: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.4rem;
+            padding-bottom: 0.4rem;
+            color: var(--fontColor);
+            
+            }  .HorizontalMealMenuMainDiv .title {
+                font-size: 0.8rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalMealMenuMainDiv .subTitle{
+                 font-size: 0.55rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }    
+
+
+    @media (max-width: 470px) { 
+
+        ::-webkit-scrollbar {
+            height: 0.2rem;
+            border: 1px;
+            border-radius: 20rem;
+          }
+        
+          ::-webkit-scrollbar-thumb:horizontal{
+            background-color: var(--fontColor);
+            border-radius: 10rem;
+        }
+       .HorizontalMealMenuMainDiv .posterDiv{
+            border-radius: 1.5vw;
+            margin-right: 0.3rem;
+            margin-left: 0.3rem;
+            background-color: var(--pri);
+            width: 9rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+       .HorizontalMealMenuMainDiv .image {
+            border-top-left-radius: 1.5vw;
+            border-top-right-radius: 1.5vw;
+            width: 7rem;
+            height: 7rem;
+        }
+        
+       .HorizontalMealMenuMainDiv .textDiv {
+            padding: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.4rem;
+            padding-bottom: 0.4rem;
+            color: var(--fontColor);
+            
+            }  .HorizontalMealMenuMainDiv .title {
+                font-size: 0.7rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalMealMenuMainDiv .subTitle{
+                 font-size: 0.45rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }    
+   
+
+
+
+    
+

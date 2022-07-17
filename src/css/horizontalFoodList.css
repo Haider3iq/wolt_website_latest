@@ -1,0 +1,298 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #6043D5;
+        --primaryColorLinear: #B200D1;
+        --secondPrimaryColor: #DBE9F7;
+        --widgetFontColor: #fff;
+        --fontColor: #fff;
+        --backgroundColor: #202124;
+        --widgetColor: #393F48;
+    }
+    }
+    
+    @media (prefers-color-scheme: light) { 
+        :root {
+            --primary: #6043D5;
+            --primaryColorLinear: #B200D1;
+            --secondPrimaryColor: #DBE9F7;
+            --fontColor: #202124;
+            --widgetFontColor: #202124;
+            --backgroundColor: #fff;
+            --widgetColor: #F9F9F9;
+        }
+    }
+
+
+       .HorizontalFoodListMainDiv {
+                display: flex;
+                flex-direction: row;
+                overflow-x: scroll;
+                padding-bottom: 0.7rem;
+                margin-top: 1vw;
+                margin-bottom: 2vw;
+        } 
+
+
+        /* Scroll desgin */
+     
+
+
+
+       .HorizontalFoodListMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+            background-color: var(--pri);
+            width: 30vw;
+            background-color: var(--backgroundColor)
+            
+        }
+
+       .HorizontalFoodListMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 24vw;
+            height: 12.5vw;
+        }
+
+       .HorizontalFoodListMainDiv .textDiv {
+            padding: 0.8vw;
+            color: var(--fontColor);
+            
+            } .HorizontalFoodListMainDiv .title {
+                font-size: 1.35rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalFoodListMainDiv .subTitle{
+                font-size: 0.9rem;
+                /* font-family: var(--fontFamily);  */
+            }
+
+        
+
+
+
+
+    /*=======> 2nd secren #222222  <=======*/
+
+    @media (max-width: 1250px) {  */
+      .HorizontalFoodListMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.3rem;
+            margin-left: 0.3rem;
+            background-color: var(--pri);
+            width: 30vw;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+      .HorizontalFoodListMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 26vw;
+            height: 14.5vw;
+        }
+        
+       .HorizontalFoodListMainDiv .textDiv {
+            padding: 0.8vw;
+            color: var(--fontColor);
+            
+            }.HorizontalFoodListMainDiv .title {
+                font-size: 1.15rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+            .HorizontalFoodListMainDiv .subTitle{
+                 font-size: 0.8rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }   
+
+
+
+
+
+
+
+
+    @media (max-width: 1100px) {  */
+        .HorizontalFoodListMainDiv .posterDiv{
+              border-radius: 1vw;
+              margin-right: 0.3rem;
+              margin-left: 0.3rem;
+              background-color: var(--pri);
+              width: 30rem;
+              background-color: var(--backgroundColor)
+              
+          }
+          
+        .HorizontalFoodListMainDiv .image {
+              border-top-left-radius: 1vw;
+              border-top-right-radius: 1vw;
+              width: 27vw;
+              height: 16vw;
+          }
+          
+         .HorizontalFoodListMainDiv .textDiv {
+              padding: 0.8vw;
+              color: var(--fontColor);
+              
+              }.HorizontalFoodListMainDiv .title {
+                  font-size: 1.15rem;
+                  /* font-family: var(--fontFamily);
+                  font-weight:200; */
+              }
+              .HorizontalFoodListMainDiv .subTitle{
+                   font-size: 0.8rem;
+                  /* font-family: var(--fontFamily);  */
+              }
+      }   
+
+
+
+
+
+
+
+
+
+
+
+/*=======> 3rid secren #333333  <=======*/
+    @media (max-width: 900px) {  */
+       .HorizontalFoodListMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.3rem;
+            margin-left: 0.3rem;
+            background-color: var(--pri);
+            width: 30rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+       .HorizontalFoodListMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 27vw;
+            height: 16vw;
+        }
+        
+       .HorizontalFoodListMainDiv .textDiv {
+            padding: 0.8vw;
+            color: var(--fontColor);
+            
+            } .HorizontalFoodListMainDiv .title {
+                font-size: 1.15rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalFoodListMainDiv .subTitle{
+                 font-size: 0.8rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }   
+
+
+
+
+
+
+    /*=======> 4rd secren #444444  <=======*/
+
+
+    @media (max-width: 800px) { 
+       .HorizontalFoodListMainDiv .posterDiv{
+            border-radius: 1vw;
+            margin-right: 0.3rem;
+            margin-left: 0.3rem;
+            background-color: var(--pri);
+            width: 18rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+       .HorizontalFoodListMainDiv .image {
+            border-top-left-radius: 1vw;
+            border-top-right-radius: 1vw;
+            width: 14rem;
+            height: 9.5rem;
+        }
+        
+       .HorizontalFoodListMainDiv .textDiv {
+            padding: 0.8vw;
+            color: var(--fontColor);
+            
+            }  .HorizontalFoodListMainDiv .title {
+                font-size: 1rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalFoodListMainDiv .subTitle{
+                 font-size: 0.65rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }  
+
+
+
+
+
+
+
+
+
+
+    /*#TODO mobile                                                                  */
+    @media (max-width: 555.56px) { 
+
+        ::-webkit-scrollbar {
+            height: 0.2rem;
+            border: 1px;
+            border-radius: 20rem;
+          }
+        
+          ::-webkit-scrollbar-thumb:horizontal{
+            background-color: var(--fontColor);
+            border-radius: 10rem;
+        }
+       .HorizontalFoodListMainDiv .posterDiv{
+            border-radius: 1.5vw;
+            margin-right: 0.25rem;
+            margin-left: 0.25rem;
+            background-color: var(--pri);
+            width: 16rem;
+            background-color: var(--backgroundColor)
+            
+        }
+        
+       .HorizontalFoodListMainDiv .image {
+            border-top-left-radius: 1.5vw;
+            border-top-right-radius: 1.5vw;
+            width: 9.5rem;
+            height: 6.5rem;
+        }
+        
+       .HorizontalFoodListMainDiv .textDiv {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+            color: var(--fontColor);
+            
+            }  .HorizontalFoodListMainDiv .title {
+                font-size: 0.8rem;
+                /* font-family: var(--fontFamily);
+                font-weight:200; */
+            }
+           .HorizontalFoodListMainDiv .subTitle{
+                 font-size: 0.55rem;
+                /* font-family: var(--fontFamily);  */
+            }
+    }    
+   
+
+
+
+    
+

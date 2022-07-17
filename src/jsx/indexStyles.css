@@ -1,0 +1,32 @@
+
+
+.websiteBody {
+    padding: 0.5vw;
+    padding-top: 12rem;
+}
+
+
+@media(min-width: 1620px) {
+    .websiteBody{
+        padding: 2.5vw;
+        padding-top: 10rem;
+        padding-bottom: 0rem;
+
+    }
+   
+}
+
+
+@media(max-width: 800px) {
+    .websiteBody{
+        padding-top: 10rem;
+    }
+   
+}
+
+@media(max-width: 555px) {
+    .websiteBody{
+        padding-top: 4rem;
+    }
+   
+}

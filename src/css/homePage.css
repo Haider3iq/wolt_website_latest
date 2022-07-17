@@ -1,0 +1,73 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #6043D5;
+        --primaryColorLinear: #B200D1;
+        --secondPrimaryColor: #DBE9F7;
+        
+        --widgetFontColor: #fff;
+        --fontColor: #fff;
+        --backgroundColor: #202124;
+        --widgetColor: #393F48;
+    }
+    }
+    
+    @media (prefers-color-scheme: light) { 
+        :root {
+            --primary: #6043D5;
+            --primaryColorLinear: #B200D1;
+            --secondPrimaryColor: #DBE9F7;
+            --fontColor: #202124;
+            --widgetFontColor: #202124;
+            --backgroundColor: #fff;
+            --widgetColor: #F9F9F9;
+        }
+    }
+
+
+    ::-webkit-scrollbar {
+        height: 0.6rem;
+        width: 0.8rem;
+        border: 1px solid var(--fontColor);
+        border-radius: 20rem;
+    }
+
+    ::-webkit-scrollbar-thumb:horizontal{
+        background: var(--fontColor);
+        border-radius: 20rem;
+    }
+
+
+    .HomeDiv {
+        background-color: var(--widgetColor);
+    }
+
+    .HomeDiv .titleDiv {
+        padding-top: 2vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    } .HomeDiv .titleText {
+        color: #fff;
+        font-size: 1.8rem;
+    }
+
+    @media (max-width: 1100px) { 
+
+    }
+    @media (max-width: 900px) { 
+        .HomeDiv .titleText {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+    }
+    @media (max-width: 765px) {
+        .HomeDiv .titleText {
+            color: #fff;
+            font-size: 1.2rem;
+        }
+     }
+    @media (max-width: 555px) { 
+        .HomeDiv  .titleText {
+            color: #fff;
+            font-size: 1rem;
+        }
+    }
